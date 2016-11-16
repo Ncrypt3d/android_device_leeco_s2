@@ -17,7 +17,7 @@
 /oemconfig      emmc        /dev/block/bootdevice/by-name/OEMCONFIG       flags=backup=1;subpartitionof=/adspso
 /rpm            emmc         /dev/block/bootdevice/by-name/rpm            flags=backup=1;subpartitionof=/adspso
 /sbl1           emmc         /dev/block/bootdevice/by-name/sbl1           flags=backup=1;subpartitionof=/adspso
-/st1            emmc         /dev/block/bootdevice/by-name/modemst1       flags=backup=1;subpartitionof=/adspso;flags=backup=1;display=EFS;mounttodecrypt;
+/st1            emmc         /dev/block/bootdevice/by-name/modemst1       flags=backup=1;subpartitionof=/adspso;flags=backup=1;display="EFS";mounttodecrypt;
 /st2            emmc         /dev/block/bootdevice/by-name/modemst2       flags=backup=1;subpartitionof=/adspso;flags=backup=1;subpartitionof=/st1;mounttodecrypt;
 /tz             emmc         /dev/block/bootdevice/by-name/tz             flags=backup=1;subpartitionof=/adspso
 /usbstorage     vfat         /dev/block/sda1         /dev/block/sda          flags=fsflags=utf8;display="USB Storage";storage;wipeingui;removable
